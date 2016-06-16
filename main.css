@@ -3,7 +3,7 @@ body {
   font-weight: 300;
   font-size: 20px;
   line-height: 30px;
-  background-color: #60759e;
+  background-color: #f2f2f2;
   margin: 0px;
   color: #333;
   #box-shadow: inset 0px 0px 200px rgba(0,0,0,0.8);
@@ -27,6 +27,18 @@ h1 {
   margin: 0px auto;
   padding: 20px;
   padding-top: 150px;
+}
+
+#title {
+  font-weight: 600;
+}
+
+#subtitle {
+  font-size: 16px;
+}
+
+#details {
+  font-size: 14px;
 }
 
 a {
