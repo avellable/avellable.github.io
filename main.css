@@ -1,7 +1,6 @@
 body {
   font-family: 'Roboto',"Helvetiva Neue",Helvetiva, Arial,sans-serif;
   font-weight: 300;
-  font-size: 20px;
   line-height: 30px;
   background-color: #f2f2f2;
   margin: 0px;
@@ -11,7 +10,6 @@ body {
 }
 
 h1 {
-  font-size: 120px;
   font-weight: 900;
   letter-spacing: -4;
   color: ##FFFFFF;
@@ -59,7 +57,7 @@ a:hover {
 }
 
 a {
-  color: #302c29;
+  color: #5700ff;
 }
 
 .misc {
