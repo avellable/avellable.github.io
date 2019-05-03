@@ -9,21 +9,43 @@ body {
 }
 
 h1 {
+  text-align: left;
   font-weight: 900;
   letter-spacing: -4;
   color: ##FFFFFF;
-  white-space:nowrap;
+  white-space: nowrap;
+}
+
+hr {
+  margin-right: 20px;
+  border-width: 0.5px;
+}
+
+img {
+  float: left;
+  max-width: 20%;
+  max-height: 20%;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #content {
   min-height: 500px;
 }
 
+#name-header-full {
+  max-width: 500px;
+  margin: 0px auto;
+  padding-top: 150px;
+  padding-left: 20px;
+}
+
 #inner {
   max-width: 500px;
   margin: 0px auto;
   padding: 20px;
-  padding-top: 150px;
+  padding-top: 40px;
 }
 
 #title {
