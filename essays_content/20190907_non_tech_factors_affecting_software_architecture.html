@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+  <title>avellable: 20190907 Non-technical reasons for software architecture</title>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../main.css" />
+  </head>
+
+  <body>
+    <div id="content">
+      <div id="breadcrum"><a href="../index.html">avellable</a> > <a href="../essays.html">posts</a></div>
+      <div id="essay-header-full"><h2>Non-technical factors affecting software architecture</h2></div>
+      <div id="essay-date">September 7th 2019</div>
+      <div id="inner">
+        <p>Next month I complete 5 years since I started working as a software engineer for money. In these 
+        5 years my thought process while designing or writing software has changed dramatically. And the reason 
+        for that is not that I've learned a lot of new concepts in Computer Science over the years. But, most 
+        of things affected these changes have very less or nothing to do with actual Computer Science. I tried 
+        to list a few of them below. Some of these might be pretty obvious to experienced engineers but they 
+        might be surprising to beginners.</p>
+
+        <h3>What costs less money?</h3>
+        <p>I've worked with resource constrained environments such as PaaS a lot. Everything is managed by 
+        somebody else and they ask for a lot of money if you want to scale up vertically. This makes me choose 
+        my moves by what component costs less. For example, I would load records from different tables in web app 
+        memory one by one instead of doing a join in the database. Because database instance does not have 
+        sufficient memory and upgrading its memory costs twice the current cost.</p>
+
+        <h3>Can we find people to maintain?</h3>
+        <p>All of my last 5 years have been in Tokyo. Sometimes it can be very challenging to find suitable 
+        engineers here. So, whenever I’ve tried to write something new from scratch, I had to keep in mind if the 
+        tools (programming language, frameworks, etc.) being used are well known in Tokyo. If the tools are not 
+        well-known then I at least make sure they are not ridiculously difficult to understand.</p>
+
+        <h3>Co-worker's comfort</h3>
+        <p>Sometimes even though I have a perfect tool for something only I am responsible for and am well versed 
+        with it, my co-workers aren't. I always keep in mind the scenario where either I go on a vacation or move 
+        on to another job. In those scenarios my co-workers have to maintain the system, although it’s not their 
+        main responsibility. So, I always try to choose what everyone is comfortable with.</p>
+
+        <h3>Convincing a superior</h3>
+        <p>As a beginner I've caused my share of bugs. But at the same time, I've delivered way more working 
+        features. But somehow, some of my superiors always remembered that one time I caused a bug and they had 
+        to answer clients or their superiors. So, when I am explaining a better solution for a certain problem, 
+        they're less open minded. And this affects my choice of right design a lot. I try to balance between the 
+        amount of effort put in convincing my boss and actual implementation effort.</p>
+
+        <p>Sometimes I absolutely hate that I’ve to take above factors into consideration (especially the last one) 
+        while creating something new. But it can’t be helped and I do what I have to do.</p>
+      </div>
+    </div>
+  </body>
+</html>
