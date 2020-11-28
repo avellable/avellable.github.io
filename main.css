@@ -54,6 +54,13 @@ img {
   padding-left: 10px;
 }
 
+#breadcrum-essays {
+  max-width: 500px;
+  margin: 0px auto;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
 #essay-date {
   max-width: 500px;
   margin: 0px auto;
